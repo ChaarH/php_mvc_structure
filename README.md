@@ -8,7 +8,7 @@
 
 <p>Raul Neto - raulneto90@gmail.com</p>
 
-<h2>Contributing<h2>
+<h2>Contributing</h2>
 <p>Fork it (https://github.com/raulneto90/php_mvc_structure/fork)</p>
 <p>Create your feature branch (git checkout -b feature/fooBar)</p>
 <p>Commit your changes (git commit -am 'Add some fooBar')</p>
