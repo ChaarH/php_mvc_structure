@@ -1,20 +1,20 @@
 <?php
 require_once 'enviroment.php';
 if (ENVIROMENT == 'development') {
-    define("BASE_URL", "http://localhost/pesquisas/");
+    define("BASE_URL", "http://localhost/nomedoprojeto/");
     $config = [
-        'dbname' => 'pesquisas',
-        'host' => '192.168.0.14',
-        'dbuser' => 'root',
-        'dbpass' => 'unilabpp1465'
+        'dbname' => 'nomedobanco',
+        'host' => 'ipdobanco',
+        'dbuser' => 'usuario',
+        'dbpass' => 'senha'
     ];
 } else {
-    define("BASE_URL", "http://192.168.0.14/pesquisas/");
+    define("BASE_URL", "http://enderecodoseusite/nomedoprojeto/");
     $config = [
-        'dbname' => 'pesquisas',
-        'host' => '192.168.0.14',
-        'dbuser' => 'root',
-        'dbpass' => 'unilabpp1465'
+        'dbname' => 'nomedobanco',
+        'host' => 'ipdobanco',
+        'dbuser' => 'usuario',
+        'dbpass' => 'senha'
     ];
 }
 
